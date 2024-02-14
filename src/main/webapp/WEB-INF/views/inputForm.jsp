@@ -8,13 +8,15 @@
 <body>
 <h1>BMI Calculator</h1>
 
-<P>Enter height(inches) and weight(lbs)</p>
+<P>Enter the height (inches) and weight (lbs)</p>
 
 <form action="bmi" method="post">
     <label>Height(in):</label>
     <input type="text" name="height"><br>
+    <br>
     <label>Weight(lb):</label>
     <input type="text" name="weight"><br>
+    <br>
     <input type="submit" value="Calculate">
 </form>
 </body>
